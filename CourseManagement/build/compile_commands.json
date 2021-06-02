@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\Boom2.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\Boom2.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/Boom2.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\Course.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\Course.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/Course.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\CourseHash.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\CourseHash.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/CourseHash.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\CourseList.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\CourseList.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/CourseList.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\Exceptions.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\Exceptions.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/Exceptions.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\Faculty.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\Faculty.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/Faculty.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\Graph.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\Graph.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/Graph.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\library2.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\library2.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/library2.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\main.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\main.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/main.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\Node_s.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\Node_s.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/Node_s.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\runView.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\runView.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/runView.cpp"
+},
+{
+  "directory": "C:/Users/tamir/Desktop/CourseManagement/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe    -std=gnu++11 -g   -o CMakeFiles\\drf.dir\\utils.cpp.obj -c C:\\Users\\tamir\\Desktop\\CourseManagement\\utils.cpp",
+  "file": "C:/Users/tamir/Desktop/CourseManagement/utils.cpp"
+}
+]

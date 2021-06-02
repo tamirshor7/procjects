@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tamir/Desktop/CourseManagement/library2.h
+
+C:/Users/tamir/Desktop/CourseManagement/runView.cpp
+assert.h
+-
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+library2.h
+C:/Users/tamir/Desktop/CourseManagement/library2.h
+runView.h
+C:/Users/tamir/Desktop/CourseManagement/runView.h
+
+C:/Users/tamir/Desktop/CourseManagement/runView.h
+
