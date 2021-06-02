@@ -1,3 +1,23 @@
-# This repo is made for tracking python simple gaming apps
-In every project, you can run main.py to run the game <br />
-Scrabbles - a pygame scrabbles game implementation for two players.
+# This repo is made for tracking simple and complex coding apps
+
+## Every one of the following projects contains a more detailed README in the designated folder, with more detailed explanations what the application does. <br />
+1. Course Management System - Relatively large scale project of over 3k coding lines - The project posseses databases of various Technion courses,<br />
+   and is designed to help manage them from two perspectives, via two applications:
+   a. Course Scheduling System - This application is an interactive CLI (file I\O also supported) graphing calculator, allowing users to define,  <br />
+   save/load, display and mathematically manipulate directed graphs representing the recommended course schedules in various faculties,  <br />
+   or fields within faculties. This application is designated to allow the user analysis of the level and character of correlation between their study fields' schedules  <br />
+   and those of other fields, for the purpose of comparison, destined transition, general planning or plain curiosity.  <br />
+   From a programmatical point of view, this project demonstrates challenging complex parsing and algorithmic logic.  <br />
+   b. Course Viewing System - This application, also a CLI, is designated to implement an interface that allows the user manage the viewing time of various recordings of  <br />
+   courses and lectures entered. This project strongly emphasizes correct implementation and usage of various data structures (see project README for further informations). <br />
+   All data structures are self-implemented (No STL usage, for the sake of practice).  <br />
+   ### Programming Language : CPP  <br />
+   
+ 2. Linux Shell Implementation - Project written in cooperation with a single partner, as part of a school project. <br />
+    This project Implements a fully functioning Linux Shell. The project includes implementation of various bash commands (background and foreground), inter-process  <br />
+    communication (including Pipes), Partial Signal Handling, and job_list maintenance. Should mainly demonstrate understanding a grasp of how Opearting Systems work,  <br />
+    specifically on Linux.  Utilizes Factory and Singleton Design approaches. <br />
+    ### Programming Language : C
+   
+3. Scrabbles Game - A pygame scrabbles game implementation for two players. Demonstrating basic UI implementation and Design (via the pygame module), OOP and various algorithmic      approaches. Also, It's just plain fun! <br \>
+   ### Programming Language : Python
