@@ -1,2 +1,0 @@
-044252, "Digital Systems"
-044102, "Safety in electricity"
