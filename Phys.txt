@@ -1,3 +1,0 @@
-114074, "Physics 1p"
-114076, "Physics 2p"
-115203, "Quantum Physics"
