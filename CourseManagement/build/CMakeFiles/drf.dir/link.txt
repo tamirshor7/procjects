@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\drf.dir/objects.a
-C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\drf.dir/objects.a @CMakeFiles\drf.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe -std=gnu++11 -g   -Wl,--whole-archive CMakeFiles\drf.dir/objects.a -Wl,--no-whole-archive  -o drf.exe -Wl,--out-implib,libdrf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\drf.dir\linklibs.rsp

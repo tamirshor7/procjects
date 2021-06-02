@@ -1,3 +1,0 @@
-C:/Users/tamir/Desktop/CourseManagement/build/CMakeFiles/drf.dir
-C:/Users/tamir/Desktop/CourseManagement/build/CMakeFiles/edit_cache.dir
-C:/Users/tamir/Desktop/CourseManagement/build/CMakeFiles/rebuild_cache.dir
