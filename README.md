@@ -17,7 +17,7 @@
     This project Implements a fully functioning Linux Shell. The project includes implementation of various bash commands (background and foreground), inter-process  <br />
     communication (including Pipes), Partial Signal Handling, and job_list maintenance. Should mainly demonstrate understanding a grasp of how Opearting Systems work,  <br />
     specifically on Linux.  Utilizes Factory and Singleton Design approaches. <br />
-    ### Programming Language : C
+    ### Programming Language : CPP
    
 3. Scrabbles Game - A pygame scrabbles game implementation for two players. Demonstrating basic UI implementation and Design (via the pygame module), OOP and various algorithmic      approaches. Also, It's just plain fun! <br \>
    ### Programming Language : Python
