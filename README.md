@@ -1,4 +1,4 @@
-# This repo is made for tracking simple and complex coding apps
+# This repo is made for tracking and presenting coding projects
 
 ## Every one of the following projects contains a more detailed README in the designated folder, with more detailed explanations what the application does. <br />
 1. Course Management System - Relatively large scale project of over 3k coding lines - The project posseses databases of various Technion courses,<br />
@@ -11,13 +11,18 @@
    b. Course Viewing System - This application, also a CLI, is designated to implement an interface that allows the user manage the viewing time of various recordings of  <br />
    courses and lectures entered. This project strongly emphasizes correct implementation and usage of various data structures (see project README for further informations). <br />
    All data structures are self-implemented (No STL usage, for the sake of practice).  <br />
-   ### Programming Language : CPP  <br />
-   
+   ##### Solo Effort <br />
+   #### Programming Language : CPP  <br />
+  
  2. Linux Shell Implementation - Project written in cooperation with a single partner, as part of a school project. <br />
     This project Implements a fully functioning Linux Shell. The project includes implementation of various bash commands (background and foreground), inter-process  <br />
     communication (including Pipes), Partial Signal Handling, and job_list maintenance. Should mainly demonstrate understanding a grasp of how Opearting Systems work,  <br />
     specifically on Linux.  Utilizes Factory and Singleton Design approaches. <br />
-    ### Programming Language : CPP
+    ##### Developed with a partner <br />
+    #### Programming Language : CPP <br />
    
-3. Scrabbles Game - A pygame scrabbles game implementation for two players. Demonstrating basic UI implementation and Design (via the pygame module), OOP and various algorithmic      approaches. Also, It's just plain fun! <br \>
-   ### Programming Language : Python
+   
+3. Scrabbles Game - A pygame scrabbles game implementation for two players. Demonstrating basic UI implementation and Design (via the pygame module), OOP and various algorithmic      approaches. Also, It's just plain fun!  <br />
+   ##### Solo Effort <br />
+   #### Programming Language : Python  <br />
+   
