@@ -1,6 +1,6 @@
 Python Pygame Scrabbles Simulator
 Rules:
-The traditional rules of Scrabbles have been slightly modified to make to game more challenging.
+The traditional rules of Scrabbles have been slightly modified to make the game more challenging.
 Each player gets an initial amount of 7 character tokens. The goal is to create as many words as possbile along
 the 13X13 Game board.
 Each character earns whoever placed it on the board a different amount of points, in any case its placing forms
