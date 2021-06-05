@@ -20,12 +20,19 @@ class Game:
         self.errors = ""
         self.winner_player = 0
         self._init()
-    
+
+    def drawSelected(self):
+        if(self.curr_row != -1 and self.curr_col != -1):
+            pygame.draw.rect(self.win, BLACK, (self.curr_col*SQUARE_SIZE, self.curr_row*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
+
+
     def update(self):
         self.board.draw(self.win)
         self.drawScores()
         self.draw_valid_moves(self.valid_moves)
         self.drawErrorMessage(self.errors)
+        self.drawSelected()
+
         pygame.display.update()
 
 
