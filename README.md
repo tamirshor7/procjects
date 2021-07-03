@@ -26,6 +26,7 @@
    
 4. Linux Multithreaded webserver Implementation - Project written in cooperation with a single partner, as part of a school project. <br />
     This project Implements a TCP/IP webserver made to receive and fulfill client requests in a prallel manner (using pthreads library). <br />
+    Project also supports maintaining of various server based statistics (all described in project README).  <br />
     Showcases mainly application of thread synchronization principles.<br />
     ##### Developed with a partner <br />
     #### Programming Language : C<br />
