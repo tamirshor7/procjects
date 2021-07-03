@@ -1,6 +1,6 @@
 # This repo is made for tracking and presenting coding projects
 
-## Every one of the following projects contains a more detailed README in the designated folder, with more detailed explanations regarding what the application does. <br />
+## Every one of the following projects contains a more detailed README in the designated folder, with more detailed explanations regarding what the application does and how. <br />
 1. Course Management System - Relatively large scale project of over 3k coding lines - The project posseses databases of various Technion courses, 
    and is designed to help manage them from two perspectives, via two applications: <br />
    a. Course Scheduling System - This application is an interactive CLI (file I\O also supported) graphing calculator, allowing users to define, save/load, display and       mathematically manipulate directed graphs representing the recommended course schedules in various faculties, or fields within faculties. <br />
