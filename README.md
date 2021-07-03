@@ -30,4 +30,10 @@
     Showcases mainly application of thread synchronization principles.<br />
     ##### Developed with a partner <br />
     #### Programming Language : C<br />
+    
+5.  Implementation of malloc, calloc, realloc and free with varoius heap managing optimizations (described in project README). <br />
+    Implements and uses a segregated free-list bin array data structure for free heap blocks, and a doubly-linked list for all heap allocated blocks.
+    Main focus is on minimizing external fragmentation, heap memory usage, and time complexity.
+    ##### Developed with a partner <br />
+    #### Programming Language : CPP <br />
    
