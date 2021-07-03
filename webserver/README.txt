@@ -1,18 +1,18 @@
-This project implements a basic TCP/IP LINUX BASED webserver. 
+This project implements a basic HTTP TCP/IP LINUX BASED webserver. 
 Main focus is using parallel programming to implement a webserver that is able to fulfill client requests for static and dynamic contents.
 Request overflow behaviour and thread number are determined by user running the server, as well as which virtual port should be used.
 
 Project File Layout:
 server.c - Implementing the server. 
 
-main thread is due to only accept requests and insert them to the inner data structures (specified later on).
+Master thread is due to only accept requests and insert them to the inner data structures (specified later on).
 Requests are only handled by a pre-defined number of worker threads.
 
 Synchronization is done with pthreads' library mutex locks and condition variables.
 
 The server uses the following data structure:
 
-*   Server listens to user defined port. Main thread puts all requests received in said port in a pending requests queue of a user-defined 
+*   Server listens to user defined port. Master thread puts all requests received in said port in a pending requests queue of a user-defined 
     maximum size. If the queue is full, the user-defined scheduling algorithm is applied.
 
 *   At all times, a user-defined sized thread pool removes pending requests from the queue to a list of currently handled requests.
@@ -27,8 +27,8 @@ Usage: ./server <port> <threads> <queue_size> <sched_alg>
         queue_size - Maximum number of requests to be kept in pending status (waiting for a worker thread to become available).
         sched_alg - Policy in case a request arrives and pending requests queue is full. 
         Should only be one out of the following:
-                                            block  - Main thread blocks (forfits processor) until pending queue becomes available.
-                                            dt     - Main thread declines any new requests until pending queue becomes available.
+                                            block  - Master thread blocks (forfits processor) until pending queue becomes available.
+                                            dt     - Master thread declines any new requests until pending queue becomes available.
                                             dh     - Oldest request in pending queue that is not currently being handled by a worker thread is 
                                                      dropped, and new request is accepted instead of it.
                                             random - randomly drop 25% (round up) of currently pending requests, and accept new request.
@@ -43,3 +43,13 @@ output.c   - Some code used to "waste time" on the server - mostly for more conv
 
 PQueue.h   - Data structures' API. Documented on header file. PQueue.c Implements the structures as well as 
              all of the Synchronization mechanisms. Playing with it might cause nasty deadlocks.
+
+Project also supports maintaining and displaying of various server threads statistics : 
+        * Stat-req-arrival: Request arrival time, as first seen by the master thread.
+        * Stat-req-dispatch: The duration between request arrival time and request pull time by a worker thread.
+        * Stat-thread-id: The id of the request responding thread.
+        * Stat-thread-count: The total number of http requests this thread has handled.
+        * Stat-thread-static: The total number of static requests this thread has handled.
+        * Stat-thread-dynamic: The total number of dynamic requests this thread has handled
+
+        
