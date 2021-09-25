@@ -37,3 +37,8 @@
     ##### Developed with a partner <br />
     #### Programming Language : CPP <br />
    
+ 
+ 3. Python Stock Scanner - Scrape stock data from online resource and parse into spreasheet. Also attached VBA code for statistical calculations.  <br />
+   ##### Solo Effort <br />
+   #### Programming Language : Python  <br />
+   
